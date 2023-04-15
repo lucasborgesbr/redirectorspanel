@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "758a92ede5819196f990d14db698f01d",
+    "packages": [
+        {
+            "name": "ebanx/ebanx",
+            "version": "1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ebanx-integration/ebanx-php.git",
+                "reference": "13b311c734487ea58504a0c43551cb59491a7b64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ebanx-integration/ebanx-php/zipball/13b311c734487ea58504a0c43551cb59491a7b64",
+                "reference": "13b311c734487ea58504a0c43551cb59491a7b64",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "ext-xdebug": ">=2.2",
+                "phpunit/phpunit": "4.4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Ebanx": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Gustavo Henrique Mascarenhas Machado",
+                    "email": "guhemama@gmail.com"
+                }
+            ],
+            "description": "EBANX PHP library",
+            "homepage": "https://ebanx.com",
+            "keywords": [
+                "api",
+                "ebanx",
+                "payment processing"
+            ],
+            "time": "2019-02-26T13:31:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
